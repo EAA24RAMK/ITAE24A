@@ -1,0 +1,52 @@
+/* Styler body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Overskrift */
+h1 {
+    text-align: center;
+}
+
+/* styler id'en 'conntent' til albumindhold */
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Style til hver albumdiv */
+.album {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.album h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.album p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Style til vis/skjul knapperne */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* Når man tager musen over */
+button:hover {
+    background-color: #0056b3;
+}
